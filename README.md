@@ -2,7 +2,7 @@
 The primary goal of this project is to efficiently process a massive dataset. It focuses on the generation of language-specific files, such as 'en-xx.xlsx,' for various languages, including English (en), Swahili (sw), and German (de). Furthermore, the project involves the creation of separate JSONL files for English (en), Swahili (sw) and German (de) containing test, train, and dev data. Additionally, it aims to produce a single JSON file that encompasses translations from English to all other languages, featuring both 'id' and 'utt' data for the training sets. To ensure efficient handling of the dataset and mitigate potential memory and time complexity issues, this project avoids the use of recursive algorithms
 # Massive dataset manipulation
 ## Introduction
-This project involves data manipulation with JSON files from amazon MASSIVE dataset in relation to the following tasks
+This project involves data manipulation with JSON files from Amazon MASSIVE dataset in relation to the following tasks
 
 ## Project Tasks
 ## Question 1: python3 environment setup 
@@ -15,16 +15,10 @@ Task 2 : generate "en-xx.xlxs" files for all languages, using id, utt and annot_
 Task 3 : have the flags running the solution in the run_script.sh
 
 ## Question 2: Working with files 
-In this question, you will be manipulating JSON files to produce required outputs:
 
 Task 1: generate seperate JSONL files for English (en), Swahili (sw) and German (de) with test, train and dev.
 
 Task 2: generate a single JSON file showing all the translations from en to xx with id and utt for all the train sets(pretty print your json file structure)
-
-## Task pre-requisites 
-The following are the prerequisites to complete these tasks:
-* Python3 Development Environment
-* Amazon Massive Dataset
 
 ## Installation 
 1.  Clone the repository to your local device
