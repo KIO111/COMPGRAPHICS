@@ -23,7 +23,7 @@ Task 2: generate a single JSON file showing all the translations from en to xx w
 ## Installation 
 1.  Clone the repository to your local device
    ```command line
-git@github.com:GerDavid003/cat1_massive_dataset.git
+git@github.com: GerDavid003/cat1_massive_dataset.git
 ```
 2. Setup a virtual environment
    ```command line
